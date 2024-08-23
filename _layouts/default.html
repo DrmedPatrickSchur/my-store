@@ -11,6 +11,15 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <!-- TODO: Add GTM head script here -->
 </head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WN1NWWBWJZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WN1NWWBWJZ');
+</script>
 <body class="bg-light">
   <!-- TODO: Add GTM noscript here -->
   {% include header.html %}
